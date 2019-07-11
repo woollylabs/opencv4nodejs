@@ -1,5 +1,5 @@
 {
-  "name": "opencv4nodejs",
+  "name": "@vouched.id/opencv4nodejs",
   "version": "5.1.0",
   "description": "Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
   "keywords": [
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justadudewhohacks/opencv4nodejs"
+    "url": "git+https://github.com/justadudewhohacks/opencv4nodejs.git"
   },
   "bugs": {
     "url": "https://github.com/justadudewhohacks/opencv4nodejs/issues"
@@ -40,9 +40,15 @@
   "dependencies": {
     "nan": "^2.14.0",
     "native-node-utils": "^0.2.7",
-    "opencv-build": "^0.1.4"
+    "opencv-build": "^0.1.4",
+    "@types/node": ">6"
   },
   "optionalDependencies": {
     "@types/node": ">6"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
